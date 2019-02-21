@@ -15,7 +15,7 @@ class School
     else
       hash[grade] = []
       hash[grade] << student
-      @roster => {hash}
+      hash => {"new_key"=>["new_value_for_value_array"]} 
     end
   end
 end
