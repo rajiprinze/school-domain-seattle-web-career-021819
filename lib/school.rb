@@ -10,7 +10,6 @@ class School
 
   def add_student(student, grade)
     if !(@roster == nil)
-
       hash = {:grade => student}
       @roster.merge(hash)
     else
