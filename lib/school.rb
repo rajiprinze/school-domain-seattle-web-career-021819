@@ -16,7 +16,7 @@ class School
       hash[grade] = []
       hash[grade] << student
       hash
-      => {"new_key"=>["new_value_for_value_array"]}
+      => {grade=>[students]}
     end
   end
 end
