@@ -3,8 +3,8 @@
 # code here!
 class School
 
-  def initialize(school)
-    @school = school
+  def initialize(name)
+    @name = name
     @roster = Hash.new(false)
   end
 
