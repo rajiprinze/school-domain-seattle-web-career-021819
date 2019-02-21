@@ -13,10 +13,10 @@ class School
       hash = {:grade => student}
       @roster.merge(hash)
     else
-      hash [grade] = []
+      hash[grade] = []
       hash[grade] << student
       hash
-      => {"new_key"=>["new_value_for_value_array"]} 
+      => {"new_key"=>["new_value_for_value_array"]}
     end
   end
 end
