@@ -14,7 +14,7 @@ class School
       @roster.merge(hash)
     else
       hash[grade] = []
-      
+      hash[grade] << 
       hash[:grade] = student
       @roster = hash
     end
