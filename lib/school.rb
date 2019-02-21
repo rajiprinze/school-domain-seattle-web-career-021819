@@ -17,12 +17,4 @@ class School
       @roster = hash
     end
   end
-
-  def grade (this_grade)
-    @roster
-  end
-
-  def sort()
-    @roster
-  end
 end
