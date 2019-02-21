@@ -7,9 +7,9 @@ class School
   def roster
     @roster = Hash.new(false)
   end
-  
+
   def add_student(student, grade)
-    @roster.merge(student=>grade)
+    @roster.merge(student,grade)
   end
 
   def grade (this_grade)
