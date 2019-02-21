@@ -9,7 +9,8 @@ class School
   end
 
   def add_student(student, grade)
-    @roster.merge(student=>grade)
+    if(@roster.length >0)
+      @roster.merge(student=>grade)
   end
 
   def grade (this_grade)
