@@ -10,6 +10,7 @@ class School
 
   def add_student(student, grade)
     if !(@roster == nil)
+      @roster = {:item1 => 1}
       @roster[grade] = []
       @roster[grade] << student
       # @roster => {student =>[grade]}
