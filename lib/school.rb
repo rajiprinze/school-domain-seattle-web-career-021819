@@ -10,8 +10,8 @@ class School
 
   def add_student(student, grade)
     if !(@roster == nil)
-      hash["new_key"] = []
-      hash["new_key"] << "new_value_for_value_array"
+      hash[student] = []
+      hash[student] << grade
       hash => {"new_key"=>["new_value_for_value_array"]} 
     else
       @roster  = {:student => grade}
