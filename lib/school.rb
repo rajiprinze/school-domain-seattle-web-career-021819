@@ -12,7 +12,7 @@ class School
     if !(@roster == nil)
       hash[student] = []
       hash[student] << grade
-      hash => {"new_key"=>["new_value_for_value_array"]} 
+      hash => {"new_key"=>["new_value_for_value_array"]}
     else
       @roster  = {:student => grade}
     end
