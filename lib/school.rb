@@ -11,7 +11,7 @@ class School
   def add_student(student, grade)
     if !(@roster == nil)
       hash[student] = []
-      hashstudent] << grade
+      hash[student] << grade
       @roster => {student =>[grade]}
     else
       @roster  = {:student => grade}
