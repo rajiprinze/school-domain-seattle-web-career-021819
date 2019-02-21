@@ -12,7 +12,7 @@ class School
     if(@roster.length >0)
       @roster.merge(student=>grade)
     else
-      @roster ["student"] = []
+      @roster [student] = []
       
   end
 
