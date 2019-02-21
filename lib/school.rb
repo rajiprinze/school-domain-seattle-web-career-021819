@@ -15,7 +15,7 @@ class School
       @roster[grade] << student
       # @roster => {student =>[grade]}
     else
-      @roster  = {:student => grade}
+      hash = {:item1 => 1}
     end
   end
 
