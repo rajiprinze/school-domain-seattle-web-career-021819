@@ -12,7 +12,8 @@ class School
     if !(@roster == nil)
       hash[student] = []
       hash[student] << grade
-      hash => {student=>[grade]}
+      hash
+      => {student=>[grade]}
     else
       @roster  = {:student => grade}
     end
