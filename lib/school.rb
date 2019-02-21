@@ -12,7 +12,7 @@ class School
     if !(@roster == nil)
       @roster[student] = []
       @roster[student] << grade
-      @roster => {student =>[grade]}
+      # @roster => {student =>[grade]}
     else
       @roster  = {:student => grade}
     end
