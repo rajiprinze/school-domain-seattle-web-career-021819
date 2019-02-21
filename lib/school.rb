@@ -15,8 +15,7 @@ class School
     else
       hash[grade] = []
       hash[grade] << student
-      hash[:grade] = student
-      @roster = hash
+      @roster => {grade=> []}
     end
   end
 end
