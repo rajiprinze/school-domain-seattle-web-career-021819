@@ -13,7 +13,7 @@ class School
       hash = {:grade => student}
       @roster.merge(hash)
     else
-      hash[:grade] = student
+      @roster[:grade] = student
       @roster = hash
     end
   end
