@@ -5,7 +5,7 @@ class School
 
   def initialize(school)
     @school = school
-    @ships = Hash.new(false)
+    @roster = Hash.new(false)
   end
 
   def add_student(student, grade)
