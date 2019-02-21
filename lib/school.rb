@@ -3,12 +3,8 @@ class School
 
   def initialize(name)
       @name = name
-      @roster = Hash.new
+      @roster = Hash.new(false)
     end
-  def initialize(name)
-    @name = name
-    @roster = Hash.new
-  end
 
   def add_student(student, grade)
     @roster.merge(student=>grade)
