@@ -9,7 +9,7 @@ class School
   end
 
   def add_student(student, grade)
-    if(@roster.length >0)
+    if(@roster.size >0)
       @roster.merge(student=>grade)
     else
       @roster  = {:student => grade}
