@@ -3,7 +3,7 @@ class School
 
   def initialize(name)
     @name = name
-    @roster = Hash.new(false)
+    @roster = Hash.new
   end
 
   def add_student(student, grade)
@@ -11,10 +11,10 @@ class School
   end
 
   def grade (this_grade)
-    roster
+    @roster
   end
 
   def sort()
-    roster
+    @roster
   end
 end
