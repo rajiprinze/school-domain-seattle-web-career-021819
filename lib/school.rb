@@ -13,9 +13,9 @@ class School
       hash = {:grade => student}
       @roster.merge(hash)
     else
-      hash[grade] = []
-      hash[grade] << student
-      @roster => {grade=> []}
+      @roster[grade] = []
+      @roster[grade] << student
+      @roster => {grade=> [student]}
     end
   end
 end
