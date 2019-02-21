@@ -13,7 +13,7 @@ class School
       @roster.merge(student=>grade)
     else
       @roster [student] = []
-      @roster << 
+      @roster << grade
   end
 
   def grade (this_grade)
