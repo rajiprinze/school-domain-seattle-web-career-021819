@@ -12,8 +12,7 @@ class School
     if(@roster.length >0)
       @roster.merge(student=>grade)
     else
-      @roster [student] = []
-      @roster << grade
+      @roster  = {:student => grade}
   end
 
   def grade (this_grade)
